@@ -9,7 +9,7 @@
 ============Quantumultx===============
 [task_local]
 #沸腾之夜抽奖
-30 9,10 * * * https://cdn.jsdelivr.net/gh/Wenmoux/scripts/babelDiy.js, tag=总裁送好礼, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+30 9,10 * * * https://raw.githubusercontent.com/RW689/JD_Script/main/babelDiy.js, tag=总裁送好礼, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
  */
 const $ = new Env('总裁送好礼');
