@@ -3,6 +3,7 @@
 更新时间：2021-06-01 08:43
 脚本说明：抽奖活动,有新活动可以@我或者提Issues
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+脚本来自：https://github.com/yangtingxiao/QuantumultX/edit/master/scripts/jd/jd_lotteryMachine.js
 // quantumultx
 [task_local]
 #京东抽奖机
