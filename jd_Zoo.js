@@ -84,13 +84,11 @@ if ($.isNode()) {
       if($.hotFlag)$.secretpInfo[$.UserName] = false;//火爆账号不执行助力
     }
   }
-  let res = [], res2 = [], res3 = [];
+  let res = [];
   res3 = await getAuthorShareCode('https://raw.githubusercontent.com/gitupdate/updateTeam/master/shareCodes/jd_zoo.json');
   if (!res3) await getAuthorShareCode('https://cdn.jsdelivr.net/gh/gitupdate/updateTeam@master/shareCodes/jd_zoo.json')
   if (new Date().getHours()>= 9) {
     res = await getAuthorShareCode() || [];
-    res2 = await getAuthorShareCode('http://cdn.trueorfalse.top/e528ffae31d5407aac83b8c37a4c86bc/') || [];
-  }
   // if (new Date().getHours() === 9 ||  (new Date().getHours() === 10 && new Date().getMinutes() < 20)) {
   // }
   if (pKHelpAuthorFlag) {
